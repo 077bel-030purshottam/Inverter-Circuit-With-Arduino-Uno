@@ -1,0 +1,12 @@
+# Writing all output to: C:\Users\pursh\OneDrive\Desktop\locus project\proteus\inverter circuit\output giving inverter\555\50kzinverter 555 timer\FINAL PCB FOR 50KHZ.log
+set pad_wire_necking on
+bus diagonal
+fanout 5
+route 50
+clean 2
+route 50 16
+clean 2
+filter 5
+recorner diagonal
+status_file
+
